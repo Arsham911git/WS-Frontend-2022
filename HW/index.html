@@ -1,140 +1,199 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>HomeWork</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="./styles/header.css" rel="stylesheet" type="text/css">
-    <link href="./styles/landing.css" rel="stylesheet" type="text/css">
-    <link href="./styles/adaptive.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic app</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/landing.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+
 </head>
 
 <body>
-    <header class="Header">
-        <div class="navigation w-nav">
-            <div class="navigation-container-full">
-                <div class="navigation-side-plain"><a href="#" class="brand w-nav-brand"><img
-                            src="./index_files/Logo Color.svg" alt="" class="logo"></a></div>
-                <nav class="nav-menu w-nav-menu">
-                    <a href="#" aria-current="page" class="nav-link w-nav-link w--current">Home</a>
-                    <a href="#" class="nav-link w-nav-link">Features</a>
-                    <a href="#" class="nav-link w-nav-link">Pricing</a>
-                    <a href="#" class="nav-link w-nav-link">Blog</a>
-                </nav>
-                <button class="button-navigation w-button">Get Started</button>
-            </div>
-            <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
-        </div>
+    <header class="header">
+        <img class="header__logo" src="index_files/logo/logo.png">
+        <nav class="header-nav__menu nav">
+            <li class="header-li__menu"><a class="menu__a">Home</a></li>
+            <li class="header-li__menu"><a class="menu__a">Features</a></li>
+            <li class="header-li__menu"><a class="menu__a">Pricing</a></li>
+            <li class="header-li__menu"><a class="menu__a">Blog</a></li>
+        </nav>
+
+        <button class="header__button">Get Started</button>
+
     </header>
-    <main class="Main">
-        <div class="header">
-            <div class="container">
-                <div class="w-layout-grid hero-grid">
-                    <div class="hero-block">
-                        <h1 class="heading">Grow your<br>subscription<br>business<br></h1>
-                        <p class="paragraph-large">Outcome-centered products that reduce churn, optimize pricing, and
-                            grow
-                            your subscription business end-to-end.<br></p>
-                        <div class="button-wrap"><a href="#" class="button a-button w-button">Get Started</a>
-                            <div class="div-block"><img src="./index_files/arrow-down.svg" alt="">
-                            </div>
+    <main>
+        <!-- Контент! -->
+        <section class="main-hero1 main">
+            <div class="main__wrapper">
+                <h1 class="main__title">
+                    Grow your subscription business
+                </h1>
+                <p class="main__text">
+                    Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business
+                    end-to-end.
+                </p>
+                <div class="main__button-start">
+                    <button class="main__button">Get Started</button>
+                    <button class="main__arrow-move">
+                        <img class="main__svg" src="index_files/arrow-down.svg" />
+                    </button>
+                </div>
+            </div>
+            <img src="index_files/Hero 3D.png" class="main__img--hero1" alt="hero" />
+        </section>
+
+        <section class="main__ribbon ribbon">
+            <img class="ribbon__svg" src="index_files/Group.svg" alt="">
+            <img class="ribbon__svg" src="index_files/Group-1.svg" alt="">
+            <img class="ribbon__svg" src="index_files/Group-2.svg" alt="">
+            <img class="ribbon__svg" src="index_files/Group-3.svg" alt="">
+            <img class="ribbon__svg" src="index_files/Group-4.svg" alt="">
+        </section>
+
+        <section class="main hero-2">
+            <img src="index_files/Content Image 02.png" class="main__img--hero2" alt="hero2" />
+            <div class="main__wrapper main__wrapper-hero2">
+                <h1 class="main__title main__title--less">
+                    In-depth metrics
+                </h1>
+                <p class="main__text main__text--less">
+                    Accurate, real-time reporting at your fingertips. Getting data has never been easier.
+                </p>
+                <!--              ///////////////////////////////-->
+                <div class="main__block--less">
+                    <a class="main__button--less">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="main hero-3">
+            <div class="main__wrapper hero-3">
+                <h1 class="main__title main__title--less">
+                    In-depth metrics
+                </h1>
+                <p class="main__text main__text--less">
+                    Accurate, real-time reporting at your fingertips. Getting data has never been easier.
+                </p>
+                <div class="main__block--less">
+                    <a class="main__button--less">Learn more</a>
+                </div>
+            </div>
+            <img src="index_files/Content Image.png" class="main__img--hero3" alt="hero3" />
+        </section>
+
+        <section class="main__facilities facilities">
+            <div class="facilities__block">
+                <img class="facilities__img1" src="index_files/Icon 001.png" alt="">
+                <h1 class="facilities__title">Benchmarks</h1>
+                <p class="facilities__text">See how you stack up against comparable companies in similar
+                    stages. </p>
+            </div>
+            <div class="facilities__block">
+                <img class="facilities__img2" src="index_files/Icon 002.png" alt="">
+                <h1 class="facilities__title">Benchmarks</h1>
+                <p class="facilities__text">See how you stack up against comparable companies in similar
+                    stages. </p>
+            </div>
+            <div class="facilities__block">
+                <img class="facilities__img3" src="index_files/Icon 003.png" alt="">
+                <h1 class="facilities__title">Benchmarks</h1>
+                <p class="facilities__text">See how you stack up against comparable companies in similar
+                    stages. </p>
+            </div>
+        </section>
+
+        <section class="main__sale main-sale">
+            <div class="main-sale__abstract">
+                <h2 class="main-sale__title">
+                    Get the right plan for future product.
+                </h2>
+                <div class="main-sale__radio-btn">
+                    <div class="radio-btn-item">
+                        <input id="radio-btnYear" type="radio" value="1" name="radio" checked>
+                        <label for="radio-btnYear">Yearly</label>
+                    </div>
+                    
+                    <div class="radio-btn-item">
+                        <input id="radio-btnMonth" type="radio" value="2" name="radio">
+                        <label for="radio-btnMonth">Monthly</label>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="main-sale__tariffs">
+                <div class="tarriffs-block">
+                    <p class="tarriffs-block__text">
+                        Starter
+                    </p>
+                    <h3 class="tarriffs-block__title">
+                        Free
+                    </h3>
+                    <div class="tarriffs-block__description">
+                        <p>
+                            1 Websit
+                        </p>
+                        <p>
+                            5 GB Hosting
+                        </p>
+                        <p>
+                            Limited Support
+                        </p>
+                    </div>
+                        <button class="tarriffs-block__btn">
+                            Get Started
+                        </button>
+                </div>
+                    <div class="tarriffs-block">
+                        <p class="tarriffs-block__text">
+                            Premium
+                        </p>
+                        <h3 class="tarriffs-block__title">
+                            $29<text class="tarriffs-block__title-text">/month</text>
+                        </h3>
+                        <div class="tarriffs-block__description">
+                            <p>
+                                10 Website
+                            </p>
+                            <p>
+                                15 GB Hosting
+                            </p>
+                            <p>
+                                Premium Support
+                            </p>
                         </div>
+                        <button class="tarriffs-block__btn">
+                            Get Started
+                        </button>
                     </div>
-                    <div class="hero-image-wrap"><img src="./index_files/Hero 3D.png" alt="" class="image-3"></div>
-                </div>
+                    <div class="tarriffs-block">
+                        <p class="tarriffs-block__text">
+                            Enterprise
+                        </p>
+                        <h3 class="tarriffs-block__title">
+                            $49<text class="tarriffs-block__title-text">/month</text>
+                        </h3>
+                        <div class="tarriffs-block__description">
+                            <p>
+                                Unlimited Website
+                            </p>
+                            <p>
+                                50 GB Hosting
+                            </p>
+                            <p>
+                                Premium Support
+                            </p>                            
+                        </div>
+                        <button class="tarriffs-block__btn">
+                            Get Started
+                        </button>
+                    </div>
             </div>
-        </div>
-        <div class="logo-section">
-            <div class="container">
-                <div class="w-layout-grid logo-grid">
-                    <div class="logo-block"><img src="./index_files/Group.svg"  alt=""></div>
-                    <div class="logo-block"><img src="./index_files/Group-1.svg" alt=""></div>
-                    <div class="logo-block"><img src="./index_files/Group-2.svg" alt=""></div>
-                    <div class="logo-block"><img src="./index_files/Group-3.svg" alt=""></div>
-                    <div class="logo-block"><img src="./index_files/Group-4.svg" alt=""></div>
-                </div>
-            </div>
-        </div>
-        <div class="content-section">
-            <div class="container">
-                <div class="w-layout-grid content-grid">
-                    <div class="content-image"><img src="./index_files/Content Image 02.png" alt="content 02"></div>
-                    <div class="content">
-                        <h1>Subscription index</h1>
-                        <p>A daily dataset to keep you up to date on subscription market trends and what's happening in
-                            your
-                            vertical.</p><a href="#" class="link">Learn more</a>
-                    </div>
-                </div>
-                <div class="w-layout-grid content-grid">
-                    <div class="content">
-                        <h1>In-depth metrics</h1>
-                        <p>Accurate, real-time reporting at your fingertips. Getting data has never been easier.</p><a
-                            href="#" class="link">Learn more</a>
-                    </div>
-                    <div class="content-image"><img src="./index_files/Content Image.png" alt="content"></div>
-                </div>
-            </div>
-        </div>
-        <div class="content-section">
-            <div class="container">
-                <div class="w-layout-grid feature-grid">
-                    <div class="feature-card"><img src="./index_files/Icon 001.png" alt="" class="icon-3d">
-                        <h3>Benchmarks</h3>
-                        <p>See how you stack up against comparable companies in similar stages.</p>
-                    </div>
-                    <div class="feature-card"><img src="./index_files/Icon 002.png" alt="" class="icon-3d">
-                        <h3>Pricing Audit</h3>
-                        <p>Benchmark the health of your monetization and pricing strategy.</p>
-                    </div>
-                    <div class="feature-card"><img src="./index_files/Icon 003.png" alt="" class="icon-3d">
-                        <h3>Retention Audit</h3>
-                        <p>Audit where revenue leakage exists and where you can increase retention.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="content-section">
-            <div class="container">
-                <div class="title-wrap">
-                    <h1>Get the right plan <br>for future product.</h1>
-                </div>
-                <div class="w-layout-grid price-grid">
-                    <div class="price-card">
-                        <div class="price-type">Starter</div>
-                        <h1>Free</h1>
-                        <div class="feature-wrap">
-                            <div class="price-feature">1 Website</div>
-                            <div class="price-feature">5 GB Hosting</div>
-                            <div class="price-feature">Limited Support</div>
-                        </div><a href="#" class="button-white w-button">Get
-                            Started</a>
-                    </div>
-                    <div class="price-card-focus">
-                        <div class="price-type white-text">Premium</div>
-                        <h1 class="h1-white">$29<span class="text-span">/month</span></h1>
-                        <div class="feature-wrap white-text">
-                            <div class="price-feature">10 Website</div>
-                            <div class="price-feature">155 GB Hosting</div>
-                            <div class="price-feature">Premium Support</div>
-                        </div><a href="#" class="button-dark w-button">Get
-                            Started</a>
-                    </div>
-                    <div class="price-card">
-                        <div class="price-type">Enterprise</div>
-                        <h1>$49<span class="text-span">/month</span></h1>
-                        <div class="feature-wrap">
-                            <div class="price-feature">Unlimited Website</div>
-                            <div class="price-feature">50 GB Hosting</div>
-                            <div class="price-feature">Support</div>
-                        </div><a href="#" class="button-white w-button">Get
-                            Started</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+        </section>
+
 </body>
 
 </html>
