@@ -1,7 +1,3 @@
-html, body {
-    overflow-x: hidden;
-}
-
 .main {
     display: flex;
     justify-content: center;
@@ -20,7 +16,6 @@ html, body {
     width: 462px;
     height: 231px;
     color: #19191B;
-    font-family: DMSans;
     line-height: 77px;
     margin-top: 0;
     margin-bottom: 30px;
@@ -31,7 +26,6 @@ html, body {
     width: 462px;
     height: auto;
     color: #696871;
-    font-family: Mulish;
     margin-bottom: 50px;
 }
 
@@ -50,7 +44,6 @@ html, body {
     color: #FFFFFF;
     border: none;
     font-size: 17px;
-    font-family: DMSans;
 }
 
 .main__arrow-move {
@@ -103,7 +96,6 @@ html, body {
 .main__title--less {
     width: 556px;
     height: 60px;
-    font-family: DMSans;
     font-size: 50px;
 }
 
@@ -111,7 +103,6 @@ html, body {
     color: #5454D4;
     text-decoration: none;
     font-size: 17px;
-    font-family: DMSans;
 }
 
 .main__button--less:hover {
@@ -119,13 +110,11 @@ html, body {
     color: #cc1313;
 }
 
-/*hero3*/
 .hero-3 {
     gap: 61px;
     margin-bottom: 150px;
 }
 
-/*ribbon2*/
 .main__facilities {
     display: flex;
     justify-content: center;
@@ -160,7 +149,6 @@ html, body {
     color: #19191B;
     text-align: center;
     font-size: 24px;
-    font-family: DMSans;
     line-height: 36px;
 }
 
@@ -170,13 +158,11 @@ html, body {
     font-size: 16px;
     color: #696871;
     text-align: center;
-    font-family: Mulish
 }
 
 .main-sale__radio-btn {
     display: inline;
     overflow: hidden;
-    font-family: DMSans;
 }
 
 .radio-btn-item {
@@ -229,7 +215,6 @@ html, body {
 .main-sale__radio-btn {
     display: inline;
     overflow: hidden;
-    font-family: DMSans;
 }
 
 .radio-btn-item {
@@ -284,7 +269,6 @@ html, body {
     color: #19191B;
     width: 523px;
     height: 140px;
-    font-family: DMSans;
     margin: 0;
 }
 
@@ -330,7 +314,6 @@ html, body {
     color: #696871;
     font-size: 18px;
     line-height: 28px;
-    font-family: DMSans;
 }
 
 .tarriffs-block__title {
@@ -338,12 +321,10 @@ html, body {
     color: #1D293F;
     line-height: 56px;
     margin: 22px 0;
-    font-family: DMSans;
 }
 
 .tarriffs-block__title-text {
     font-size: 30px;
-    font-family: DMSans;
 }
 
 .tarriffs-block__description {
@@ -355,7 +336,6 @@ html, body {
     line-height: 50px;
     margin: 0;
     display: inline-block;
-    font-family: Mulish;
 }
 
 .tarriffs-block__btn {
@@ -368,7 +348,6 @@ html, body {
     color: #5454D4;
     font-size: 17px;
     transition: all ease 0.7s;
-    font-family: DMSans;
 }
 
 .tarriffs-block__btn:hover {
