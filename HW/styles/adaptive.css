@@ -1,0 +1,151 @@
+@media screen and (max-width: 1200px) {
+    .home {
+        gap: 1%;
+    }
+
+    .home__img--hero1 {
+        width: 40%;
+        height: 40%;
+    }
+
+    .home__text {
+        width: 432px;
+        height: auto;
+    }
+
+    /*hero2*/
+    .home__title--less {
+
+    }
+
+    .home__img--hero2 {
+        width: 40%;
+        height: 40%;
+    }
+
+    /*hero3*/
+    .home__img--hero3 {
+        width: 40%;
+        height: 40%
+    }
+
+    /*ribbon*/
+    .home__ribbon {
+        flex-wrap: wrap;
+    }
+
+    /*ribbon2*/
+    .home__facilities {
+        flex-wrap: wrap;
+    }
+
+    .block-pricing__content {
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    html, body {
+        margin-left: 10px;
+    }
+
+    .home {
+        padding: 5px;
+    }
+
+    .home__title {
+        width: 80%;
+        height: 150px;
+        line-height: 57px;
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+
+    .home__title--less {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .home__wrapper {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home__wrapper {
+        gap: 10px;
+        order: 2;
+    }
+
+    .home__title {
+        width: 100%;
+        text-align: center;
+        line-height: 57px;
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .block-pricing {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .block-pricing__content {
+        width: 100%;
+    }
+
+    .block-pricing__plan {
+        font-size: 30px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .home__title {
+        width: 100%;
+        text-align: center;
+        line-height: 47px;
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .home__text {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .home__button {
+        margin-right: 40px;
+        width: 111px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    .home__arrow-move {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .block-pricing__swith {
+        width: auto;
+        height: auto;
+    }
+
+    .block-pricing__button {
+        padding: 13px 45px 13px 45px;
+    }
+}
