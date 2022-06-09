@@ -160,6 +160,7 @@
     .header__button {
         margin-left: 60px;
         font-size: 14px;
+        min-width: 110px;
     }
 }
 
