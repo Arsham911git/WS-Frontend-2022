@@ -14,7 +14,6 @@
 .main__title {
     font-size: 80px;
     width: 460px;
-    height: 230px;
     color: #19191B;
     line-height: 77px;
     margin-top: 0;
@@ -94,8 +93,7 @@
 }
 
 .main__title--less {
-    width: 550px;
-    height: 60px;
+    max-width: 550px;
     font-size: 50px;
 }
 
@@ -111,8 +109,6 @@
 }
 
 .person-3 {
-    gap: 61px;
-    margin-bottom: 150px;
 }
 
 .main__features {
@@ -129,16 +125,7 @@
     justify-content: center;
     align-items: center;
 }
-
-.features__img1 {
-    width: 120px;
-}
-
-.features__img2 {
-    width: 120px;
-}
-
-.features__img3 {
+features__img{
     width: 120px;
 }
 
