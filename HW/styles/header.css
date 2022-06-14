@@ -1,3 +1,8 @@
+.container {
+    display: flex;
+    gap: 60px;
+}
+
 .header {
     display: flex;
     margin-left: 184px;
