@@ -13,22 +13,22 @@
     margin-top: 10px;
 }
 
-.header-nav__menu {
+.header__menu {
     display: flex;
     gap: 0px 49px;
 }
 
-.menu__a {
+.menu__link {
     padding-bottom: 7px;
 }
 
-.menu__a:hover {
+.menu__link:hover {
     cursor: pointer;
     margin-bottom: 10px;
     border-bottom: 3px solid #5454D4;
 }
 
-.header-li__menu {
+.menu__item {
     list-style-type: none;
     margin-top: 14px;
 }
@@ -41,11 +41,11 @@
     background: #FF7143;
     font-size: 17px;
     color: #fff;
-    border: none;
     transition: all ease 0.7s;
 }
 
 .header__button:hover {
+    cursor:pointer;
     background: #B14A19FF;
     border-color: #B14A19FF;
     transition: all ease 0.5s;
