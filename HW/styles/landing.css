@@ -11,6 +11,10 @@
     justify-content: center;
 }
 
+.main__wrapper-person2 {
+    max-width: 550px;
+}
+
 .main__title {
     font-size: 80px;
     width: 460px;
@@ -130,8 +134,7 @@ features__img{
 }
 
 .features__text {
-    width: 305px;
-    height: 45px;
+    max-width: 305px;
     font-size: 16px;
     color: #696871;
     text-align: center;
@@ -242,8 +245,7 @@ features__img{
 .main-sale__title {
     font-size: 60px;
     color: #19191B;
-    width: 523px;
-    height: 140px;
+    max-width: 523px;
     margin: 0;
 }
 
@@ -256,16 +258,14 @@ features__img{
 }
 
 .tarriffs-block {
-    width: 330px;
-    height: 441px;
+    max-width: 330px;
     background: #F8F8F8;
     border-radius: 10px;
     transition: all ease 0.7s;
 }
 
 .tarriffs-block:hover {
-    width: 376px;
-    height: 473px;
+    max-width: 376px;
     background: #FF7143;
     transition: all ease 0.7s;
 }
@@ -302,8 +302,7 @@ features__img{
 }
 
 .tarriffs-block__description {
-    width: 160px;
-    height: 150px;
+    max-width: 160px;
     font-size: 17px;
     color: #696871;
     font-weight: 400;
