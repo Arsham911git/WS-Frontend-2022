@@ -9,8 +9,7 @@
     }
 
     .main__text {
-        width: 430px;
-        height: auto;
+        max-width: 430px;
     }
 
     .main__img--person2 {
@@ -49,8 +48,7 @@
     }
 
     .main__title {
-        width: 80%;
-        height: 150px;
+        max-width: 80%;
         line-height: 57px;
         font-size: 60px;
         margin-bottom: 15px;
@@ -63,7 +61,7 @@
 
 @media screen and (max-width: 790px) {
     .main__wrapper {
-        width: 60%;
+        max-width: 60%;
     }
 }
 
@@ -100,7 +98,7 @@
 
     .block-pricing__plan {
         font-size: 30px;
-        width: 80%;
+        max-width: 80%;
     }
 }
 
